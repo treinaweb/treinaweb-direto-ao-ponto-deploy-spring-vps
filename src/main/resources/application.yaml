@@ -1,0 +1,5 @@
+spring:
+  web:
+    locale: pt_BR
+  profiles:
+    active: ${TWTODO_PROFILE:dev}
